@@ -1,0 +1,28 @@
+#footer {
+  background-color: var(--bg-footer);
+  margin: 0;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  gap: 10px;
+}
+
+.container-footer p {
+  font-size: 16px;
+  color: var(--color-primary);
+}
+
+@media (min-width: 992px) {
+  .container-footer {
+    flex-direction: row;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
